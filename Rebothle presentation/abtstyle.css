@@ -1,0 +1,45 @@
+nav a {text-decoration: underline;
+     color: rgb(59, 130, 158); 
+     padding: 8px 14px;
+     border-radius: 20px;
+     font-weight: 600;
+     text-align: center;
+}
+nav a:hover {background-color : rgb(59, 130, 158); 
+     color: white; padding: 8px 14px;
+     border-radius: 20px;
+}
+
+h1, h2 ,h3{text-align: center; 
+      margin: 30px 0 15px 0;
+      font-style: oblique;
+}
+body { background-color: peachpuff;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: medium;
+     font-style: oblique;
+     text-align: center;
+}
+
+header{ position: fixed;
+}
+.logo-left { background: #f4b400;
+        padding: 8px 5%;
+        border-bottom: 3px solid #f4b400;
+        position: sticky;top: 0;
+        z-index: 1000;
+}
+.logo { position: absolute;left: 0;
+      top: 50%; transform: translateY(-350%);
+}
+.flower { position: relative;margin: 100px auto;
+          width: 200px;height: 200px;
+}
+.petals { position: absolute;width: 100%; 
+         height: 100% ;
+}
+
+@media ( max-width:800px) { .contact-wrapper {flex-direction: column;
+}
+.header{flex-direction: column;}
+}
